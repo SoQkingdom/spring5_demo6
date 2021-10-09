@@ -17,4 +17,9 @@ public class TestUser {
         UserService userService = context.getBean("userService", UserService.class);
         userService.accountMoney();
     }
+
+    @Test
+    public void test2(){
+        System.out.println("hello git!");
+    }
 }
