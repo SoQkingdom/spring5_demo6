@@ -21,5 +21,6 @@ public class TestUser {
     @Test
     public void test2(){
         System.out.println("hello git!");
+        System.out.println("hello git1!");
     }
 }
